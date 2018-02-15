@@ -1,0 +1,7 @@
+[user]
+	name = kellythedesigner
+	email = kelly@redguava.com.au
+
+[core]
+  excludesfile = ~/.gitignore
+	editor = atom --wait
