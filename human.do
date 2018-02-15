@@ -12,7 +12,7 @@ Clone dotfiles
 git clone https://github.com/kellythedesigner/dotfiles.git ~/Dotfiles
 
 Run dotfiles setup
-bash ~/src/dotfiles/setup
+bash ~/Dotfiles/setup
 
 Restart macOS
 
