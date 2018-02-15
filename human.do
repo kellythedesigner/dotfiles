@@ -8,11 +8,8 @@ Download from App store purchased tab:
 Install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-Make src dir
-mkdir ~/src
-
 Clone dotfiles
-git clone https://github.com/kellythedesigner/dotfiles.git ~/src/dotfiles
+git clone https://github.com/kellythedesigner/dotfiles.git ~/Dotfiles
 
 Run dotfiles setup
 bash ~/src/dotfiles/setup
