@@ -24,5 +24,6 @@ cask 'google-chrome'
 cask 'iterm2'
 cask 'skype'
 cask 'slack'
+cask 'spotify'
 
 tap 'homebrew/services'
