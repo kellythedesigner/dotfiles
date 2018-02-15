@@ -2,15 +2,15 @@
 
 sudo -v
 
-brew bundle --file=~/src/dotfiles/Brewfile
+brew bundle --file=~/Dotfiles/Brewfile
 
-bash ~/src/dotfiles/.macos
+bash ~/Dotfiles/.macos
 
-ln -sf ~/src/dotfiles/.gitconfig ~/.gitconfig
-ln -sf ~/src/dotfiles/config.fish ~/.config/fish/config.fish
-ln -sf ~/src/dotfiles/bundler-config ~/.bundle/config
-ln -sf ~/src/dotfiles/atom-config.cson ~/.atom/config.cson
-sudo ln -sf ~/src/dotfiles/hosts /etc/hosts
+ln -sf ~/Dotfiles/.gitconfig ~/.gitconfig
+ln -sf ~/Dotfiles/config.fish ~/.config/fish/config.fish
+ln -sf ~/Dotfiles/bundler-config ~/.bundle/config
+ln -sf ~/Dotfiles/atom-config.cson ~/.atom/config.cson
+sudo ln -sf ~/Dotfiles/hosts /etc/hosts
 
 if [[ $(dscl . -read /Users/`id -un`/ UserShell) =~ .*fish$ ]];
 then
