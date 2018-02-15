@@ -1,0 +1,49 @@
+"*":
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+  "browser-plus": {}
+  "browser-refresh-on-save":
+    chromeCanary: false
+    safari: false
+    vivaldi: false
+  core:
+    disabledPackages: [
+      "linter-js-standard"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "monokai-seti"
+    ]
+  editor:
+    fontSize: 13
+    invisibles: {}
+    preferredLineLength: 100
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "6352e66f-9ea0-2f35-338e-8ce897d71e4f"
+  "linter-ui-default":
+    showPanel: true
+  metrics:
+    userId: "e2d5e7c57be0fdb28f0333056d16047f77fc81ba"
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+    prettierOptions:
+      jsxBracketSameLine: true
+      printWidth: 100
+      semi: false
+      singleQuote: true
+    useEslint: true
+  "release-notes":
+    viewedVersion: "0.71.0"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".source.toml":
+  editor:
+    preferredLineLength: 100
