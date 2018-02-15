@@ -20,4 +20,4 @@ Start all homebrew services
 brew services start --all
 
 Make rbenv read version from Gemfile
-git clone https://github.com/aripollak/rbenv-bundler-ruby-version.git "$(rbenv root)"/plugins/rbenv-bundler-ruby-version
+git clone https://github.com/aripollak/rbenv-bundler-ruby-version.git "(rbenv root)"/plugins/rbenv-bundler-ruby-version
