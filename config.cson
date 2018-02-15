@@ -1,3 +1,5 @@
+# Atom config file!
+
 "*":
   "bracket-matcher":
     autocompleteBrackets: false
