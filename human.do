@@ -12,7 +12,7 @@ Make src dir
 mkdir ~/src
 
 Clone dotfiles
-git clone git clone https://github.com/kellythedesigner/dotfiles.git ~/src/dotfiles
+git clone https://github.com/kellythedesigner/dotfiles.git ~/src/dotfiles
 
 Run dotfiles setup
 bash ~/src/dotfiles/setup
