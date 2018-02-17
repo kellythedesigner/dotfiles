@@ -1,4 +1,3 @@
-brew 'fish'
 brew 'node'
 brew 'rbenv'
 brew 'ruby-build'
