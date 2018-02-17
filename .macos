@@ -259,7 +259,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 defaults write com.apple.dock tilesize -int 28
 
 # Dock orientation: 'left', 'bottom', 'right'
-defaults write com.apple.dock 'orientation' -string 'right'
+defaults write com.apple.dock 'orientation' -string 'bottom'
 
 # Minimize to application
 defaults write com.apple.dock minimize-to-application -bool true
